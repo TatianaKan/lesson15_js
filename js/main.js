@@ -28,8 +28,8 @@ var myObj = {
  */
 
 // decimal2
-var decimal2 = myNum;
-console.log(decimal2.toFixed(2));
+var decimal2 = myNum.toFixed(2);
+console.log(decimal2);
 /*
  * #3
  *
@@ -99,7 +99,7 @@ console.log(myPow);
 // Мама мыла раму, рама мыла маму
 var strObj = {
     str: "Мама мыла раму, рама мыла маму",
-    length: "Мама мыла раму, рама мыла маму".length,
+    length: str.length,
 }
 console.log(strObj.str);
 console.log(strObj.length);
