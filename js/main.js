@@ -99,8 +99,9 @@ console.log(myPow);
 // Мама мыла раму, рама мыла маму
 var strObj = {
     str: "Мама мыла раму, рама мыла маму",
-    length: str.length,
+    
 }
+strObj.length = strObj.str.length,
 console.log(strObj.str);
 console.log(strObj.length);
 // strObj
@@ -126,7 +127,9 @@ console.log(isRamaPos);
  */
 
 // strReplace
-var strReplace = strObj.str.replace('рама мыла', 'Рама держит');
+var strReplace = strObj.str.replace('мыла', 'моет');
+strReplace = strObj.str.replace('рама мыла', 'Рама держит');
+
 console.log(strReplace);
 
 /*
